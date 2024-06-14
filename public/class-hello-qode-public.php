@@ -51,6 +51,7 @@ class Hello_Qode_Public {
 
 		$this->plugin_name = $plugin_name;
 		$this->version = $version;
+		add_shortcode( 'hello-qode', array( $this, 'hello_qode_shortcode' ) );
 
 	}
 
@@ -98,6 +99,10 @@ class Hello_Qode_Public {
 
 		wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/hello-qode-public.js', array( 'jquery' ), $this->version, false );
 
+	}
+	public function hello_qode_shortcode(){
+		ob_clean;
+		echo "Hello Qode";
 	}
 
 }
