@@ -4,7 +4,7 @@
  * The public-facing functionality of the plugin.
  *
  * @link       https://qodemedia.com
- * @since      1.0.0
+ * @since      1.0.1
  *
  * @package    Hello_Qode
  * @subpackage Hello_Qode/public
