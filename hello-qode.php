@@ -9,14 +9,14 @@
  * that starts the plugin.
  *
  * @link              https://qodemedia.com
- * @since             1.0.1
+ * @since             1.0.0
  * @package           Hello_Qode
  *
  * @wordpress-plugin
  * Plugin Name:       Hello Qode
  * Plugin URI:        https://qodemedia.com
  * Description:       Hello World
- * Version:           1.0.0
+ * Version:           1.0.1
  * Author:            Anil
  * Author URI:        https://qodemedia.com/
  * License:           GPL-2.0+
